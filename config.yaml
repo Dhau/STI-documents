@@ -1,0 +1,74 @@
+baseurl: /
+languageCode: en-us
+title: ISSC of AP-TCRC
+theme: "hugo-ivy"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+preserveTaxonomyNames: true
+footnotereturnlinkcontents: ↩
+
+permalinks:
+  note: /note/:year/:month/:day/:slug/
+  post: /post/:year/:month/:day/:slug/
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    # - name: "IOC"
+    #   url: "/IOC/"
+    #   weight: 2      
+    # - name: "LOC"
+    #   url: "/LOC/"
+    #   weight: 3      
+    # - name: "Practical Info"
+    #   url: "/Information/"
+    #   weight: 4
+    # - name: "Agenda"
+    #   url: "/Agenda/"
+    #   weight: 2
+    - name: "Meeting Files"
+      url: "/Meeting Files/"
+      weight: 3
+    # - name: "Certificates"
+    #   url: "/Certificates/"
+    #   weight: 7
+    # - name: "Topic 4"
+    #   url: "/Topic 4/"
+    #   weight: 8
+    # - name: "Topic 5"
+    #   url: "/Topic 5/"
+    #   weight: 9
+    # - name: "Topic 6"
+    #   url: "/Topic 6/"
+    #   weight: 10
+    # - name: "Topic 7"
+    #   url: "/Topic 7/"
+    #   weight: 11
+    # - name: "Special Topic"
+    #   url: "/Special Topic/"
+    #   weight: 12
+      
+
+params:
+  description: "The 1st Meeting of International Science Steering Committee"
+  footer: "Hosted by AP-TCRC"
+  highlightjsCDN: "//cdn.bootcss.com"
+  highlightjsLang: ["r", "yaml", "tex"]
+  highlightjsTheme: "github"
+  highlightjsVersion: "9.12.0"
+  twitterImage: "images/logo.jpg"
+  
+  logo:
+    main:
+      img: "/images/logo.jpg"
+      url: "/"
+      alt: ""
+      tag: ""
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
