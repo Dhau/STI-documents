@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-us
-title: ISSC of AP-TCRC
+title: STI Meeting Information and Documents
 theme: "hugo-ivy"
 googleAnalytics: ""
 disqusShortname: ""
@@ -29,8 +29,8 @@ menu:
     # - name: "Agenda"
     #   url: "/Agenda/"
     #   weight: 2
-    - name: "Meeting Files"
-      url: "/Meeting Files/"
+    - name: "Files"
+      url: "/Files/"
       weight: 3
     # - name: "Certificates"
     #   url: "/Certificates/"
@@ -53,17 +53,17 @@ menu:
       
 
 params:
-  description: "The 1st Meeting of International Science Steering Committee"
-  footer: "Hosted by AP-TCRC"
+  description: "STI Meeting Information and Documents"
+  footer: "Hosted by STI"
   highlightjsCDN: "//cdn.bootcss.com"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
   highlightjsVersion: "9.12.0"
-  twitterImage: "images/logo.jpg"
+  twitterImage: ""
   
   logo:
     main:
-      img: "/images/logo.jpg"
+      img: ""
       url: "/"
       alt: ""
       tag: ""
